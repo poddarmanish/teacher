@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_profile_comp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/ten_dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/user_profile" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/five_dp"
+        android:text="Manish Kumar Poddar"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:id="@+id/basic_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/twenty_dp"
+        android:paddingLeft="@dimen/ten_dp"
+        android:paddingRight="@dimen/ten_dp"
+        android:paddingTop="@dimen/five_dp"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/box_profile_items"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/five_dp"
+                android:paddingLeft="@dimen/five_dp"
+                android:paddingTop="@dimen/five_dp">
+
+                <ImageView
+                    android:id="@+id/personal_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="2dip"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/ic_edit_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="Personal Details"
+                    android:textColor="#5c6bc0"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/m_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/ten_dp"
+                android:paddingLeft="@dimen/five_dp"
+                android:paddingRight="@dimen/five_dp"
+                android:paddingTop="@dimen/three_dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/emailText"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".4"
+                        android:text="Email id"
+                        android:textColor="#757575"
+                        android:textSize="14sp"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/email_id"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".5"
+                        android:text="poddarmanish9@gmail.com"
+                        android:textColor="#999999"
+                        android:textSize="14sp"
+                        android:singleLine="true"/>
+
+                    <ImageButton
+                        android:id="@+id/email_id_verify_status"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".1"
+                        android:background="@null"
+                        android:src="@drawable/ic_notification" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/mobileText"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".4"
+                        android:text="Mobile no."
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/mobile_num"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".5"
+                        android:text="9820804842"
+                        android:textColor="#999999"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/locationText"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".4"
+                        android:text="Location"
+                        android:textColor="#757575"
+                        android:textSize="14sp"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/current_location"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".6"
+                        android:text="Gurgaon"
+                        android:textColor="#999999"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:id="@+id/dobText"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".4"
+                        android:text="Date of Birth"
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/dob"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".6"
+                        android:text="18-05-1990"
+                        android:textColor="#999999"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+
+                    >
+
+
+                    <TextView
+                        android:id="@+id/genderText"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".4"
+                        android:text="Gender"
+                        android:textColor="#757575"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/three_dp"
+                        android:layout_weight=".6"
+                        android:text="Male"
+                        android:textColor="#999999"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

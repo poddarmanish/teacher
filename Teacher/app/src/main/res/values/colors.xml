@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="drawer_item_color">#FFFFFF</color>
+    <color name="list_background">#000000</color>
+    <color name="list_divider">#000000</color>
+    <color name="counter_text_bg">#FF00FF</color>
+    <color name="list_background_pressed">#FF00FF</color>
+    <color name="left_right_slider_color">#343434</color>
+    <color name="action_bar_items_color">#2C527E</color>
+    <color name="splash">#FFCC33</color>
+    <color name="grey">#d3d3d3</color>
+    <color name="list_background_alert">#eeeeee</color>
+    <color name="click_menu">#f6f6f6</color>
+    <color name="white">#ffffff</color>
+    <color name="new_yellow">#ffaa00</color>
+    <color name="black">#757575</color>
+    <color name="disabled">#b6b6b6</color>
+    <color name="lightgrey">#EDEEF2</color>
+    <color name="background_white_grey">#F6F6F6</color>
+    <color name="dark_grey">#999999</color>
+    <color name="blue_link">#2196f3</color>
+    <color name="blue_heading">#5c6bc0</color>
+    <color name="red">#E57373</color>
+    <color name="title_text">#525252</color>
+
+
+</resources>
